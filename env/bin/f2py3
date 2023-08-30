@@ -1,4 +1,4 @@
-#!"/Users/macbookpro/Downloads/House Price/env/bin/python3"
+#!"/Users/macbookpro/Downloads/House Price/env/bin/python"
 # EASY-INSTALL-ENTRY-SCRIPT: 'numpy==1.25.2','console_scripts','f2py3'
 import re
 import sys

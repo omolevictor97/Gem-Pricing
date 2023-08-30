@@ -1,4 +1,4 @@
-#!"/Users/macbookpro/Downloads/House Price/env/bin/python3"
+#!"/Users/macbookpro/Downloads/House Price/env/bin/python"
 # EASY-INSTALL-ENTRY-SCRIPT: 'flask==2.3.3','console_scripts','flask'
 import re
 import sys
