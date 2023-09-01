@@ -1,0 +1,24 @@
+[ 2023-09-01 14:00:22,261 ] 26 root - INFO - Data Ingestion Starts
+[ 2023-09-01 14:00:22,295 ] 29 root - INFO - Pandas DataFrame is read
+[ 2023-09-01 14:00:22,469 ] 32 root - INFO - Train Test Split
+[ 2023-09-01 14:00:22,651 ] 41 root - INFO - Data Ingestion Is Completed
+[ 2023-09-01 14:00:22,652 ] 72 root - INFO - Reading the csv files
+[ 2023-09-01 14:00:22,690 ] 76 root - INFO - Read train and test data completed
+[ 2023-09-01 14:00:22,696 ] 77 root - INFO - Train DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       21218   0.91  Very Good     D     VS1   62.5   56.0  6.14  6.18  3.85   5597
+1       24155   1.18    Premium     H     SI1   61.6   59.0  6.82  6.72  4.17   6159
+2        3214   1.06    Premium     H     SI1   62.8   58.0  6.49  6.47  4.07   4872
+3        7366   1.25      Ideal     G     SI2   61.1   55.0  6.95  6.99  4.26   6371
+4        6002   0.70    Premium     G     VS2   60.8   58.0  5.75  5.80  3.51   2317
+[ 2023-09-01 14:00:22,701 ] 78 root - INFO - Test DataFrame Head : 
+    Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0       20767   1.04    Ideal     G     VS2   61.9   57.0  6.50  6.46  4.01   6290
+1       18688   0.40    Ideal     G     SI2   62.4   56.0  4.71  4.75  2.95    573
+2        9886   0.59  Premium     H     SI1    NaN   58.0  5.42  5.35  3.36   1265
+3        5425   2.11    Ideal     J     VS1   61.8   56.2  8.20  8.23  5.07  15766
+4         273   0.41    Ideal     H    VVS2   62.0   56.0  4.74  4.78  2.95    899
+[ 2023-09-01 14:00:22,701 ] 80 root - INFO - Obtaining preprocessor info
+[ 2023-09-01 14:00:22,701 ] 37 root - INFO - Pipeline Initiated
+[ 2023-09-01 14:00:22,701 ] 64 root - INFO - Pipeline Completed
+[ 2023-09-01 14:00:22,773 ] 108 root - INFO - Pickle file saved
