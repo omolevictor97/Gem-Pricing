@@ -1,0 +1,26 @@
+[ 2023-09-02 23:43:40,486 ] 26 root - INFO - Data Ingestion Starts
+[ 2023-09-02 23:43:40,539 ] 29 root - INFO - Pandas DataFrame is read
+[ 2023-09-02 23:43:40,719 ] 32 root - INFO - Train Test Split
+[ 2023-09-02 23:43:40,900 ] 41 root - INFO - Data Ingestion Is Completed
+[ 2023-09-02 23:43:40,901 ] 72 root - INFO - Reading the csv files
+[ 2023-09-02 23:43:40,942 ] 76 root - INFO - Read train and test data completed
+[ 2023-09-02 23:43:40,949 ] 77 root - INFO - Train DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       23550   0.73      Ideal     E     VS2   61.7   57.0  5.75  5.78  3.55   3470
+1       18981   0.43      Ideal     F    VVS2   62.2   55.0  4.85  4.83  3.01   1250
+2        5195   1.19      Ideal     D     SI1   62.0   57.0  6.77  6.82  4.21   6857
+3       24389   0.35      Ideal     F     SI1   62.2   56.0  4.48  4.52  2.80    583
+4         570   0.35  Very Good     H     SI1   63.3   54.0  4.53  4.51  2.86    647
+[ 2023-09-02 23:43:40,955 ] 78 root - INFO - Test DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       20146   0.54    Premium     F     VS2   59.5   58.0  5.36  5.29  3.17   1786
+1       20955   0.70  Very Good     F     VS2   62.3   58.0  5.64  5.72  3.54   2812
+2       26161   1.30  Very Good     I     VS2   62.7   57.0  6.88  6.90  4.32   6290
+3       24989   1.51       Fair     F      I1   67.8   59.0  7.09  7.00  4.78   3734
+4       14963   1.01       Good     E     SI2   58.5   61.0  6.51  6.55  3.82   4506
+[ 2023-09-02 23:43:40,955 ] 80 root - INFO - Obtaining preprocessor info
+[ 2023-09-02 23:43:40,955 ] 37 root - INFO - Pipeline Initiated
+[ 2023-09-02 23:43:40,955 ] 64 root - INFO - Pipeline Completed
+[ 2023-09-02 23:43:41,037 ] 19 root - INFO - A pickled file has been created
+[ 2023-09-02 23:43:41,037 ] 108 root - INFO - Pickle file saved
+[ 2023-09-02 23:43:41,050 ] 36 root - INFO - Error happened at the evaluate_model function
