@@ -3,8 +3,8 @@ from src.pipeline.prediction_pipeline import PredictPipeline, CustomData
 
 
 
-app = Flask(__name__, template_folder="templates")
-
+application = Flask(__name__, template_folder="templates")
+app = application
 @app.route("/")
 def home():
     return render_template("index.html")

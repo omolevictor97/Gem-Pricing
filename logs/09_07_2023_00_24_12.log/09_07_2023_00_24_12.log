@@ -1,0 +1,6 @@
+[ 2023-09-07 00:24:14,198 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-07 00:24:14,210 ] 186 werkzeug - INFO -  * Debugger PIN: 976-796-985
+[ 2023-09-07 00:24:14,699 ] 67 root - INFO - DataFrame Gathered    carat  depth  table    x    y    z   cut color clarity
+0   18.0    2.0    4.0  9.0  8.0  9.0  Fair     D      I1
+[ 2023-09-07 00:24:14,919 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:24:14] "POST /predict/ HTTP/1.1" 200 -
+[ 2023-09-07 00:48:05,350 ] 186 werkzeug - INFO -  * Detected change in '/Users/macbookpro/Desktop/Gem Price/application.py', reloading
