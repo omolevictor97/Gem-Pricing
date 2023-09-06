@@ -27,15 +27,14 @@ def evaluate_model(X_train, y_train, X_test, y_test, models:dict):
         for i in models:
             value = models[i]
             
-            # Train model
-            
+            # Train model'ÄÜ_.
             value.fit(X_train, y_train)
             # predict model
             y_test_pred = value.predict(X_test)
 
             # Check score
             test_score = r2_score(y_test, y_test_pred)
-            report[models[i]] = test_score
+            report[i] = test_score
             
             return report
     except Exception as e:

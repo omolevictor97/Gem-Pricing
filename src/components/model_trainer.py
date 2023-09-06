@@ -31,14 +31,14 @@ class Model_Trainer:
             )
 
             models = {
-                "Linear_Regression" : LinearRegression(),
                 "Lasso_Regression" : Lasso(),
+                "Linear_Regression" : LinearRegression(),
                 "Ridge_Regression" : Ridge(),
                 "Elastic_Net" : ElasticNet()
             }
             model_report:dict = evaluate_model(X_train, y_train, X_test, y_test, models)
             print(model_report)
-            print("\n ="* 50)
+            print("="* 50, end=" ")
             logging.info(f"Model Report: {model_report} ")
             best_model_score = max(sorted(model_report.values()))
             best_model_name = list(model_report.keys())[
@@ -53,4 +53,5 @@ class Model_Trainer:
                 obj=best_model
             )
         except Exception as e:
+            logging.info(f"Error is {e}")
             raise CustomException(e, sys)
