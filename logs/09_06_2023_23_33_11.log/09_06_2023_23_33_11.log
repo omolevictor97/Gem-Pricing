@@ -1,0 +1,5 @@
+[ 2023-09-06 23:33:12,668 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-06 23:33:12,676 ] 186 werkzeug - INFO -  * Debugger PIN: 976-796-985
+[ 2023-09-06 23:33:15,593 ] 186 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2023 23:33:15] "[32mGET /predict HTTP/1.1[0m" 308 -
+[ 2023-09-06 23:33:15,608 ] 186 werkzeug - INFO - 127.0.0.1 - - [06/Sep/2023 23:33:15] "GET /predict/ HTTP/1.1" 200 -
+[ 2023-09-06 23:37:27,682 ] 186 werkzeug - INFO -  * Detected change in '/Users/macbookpro/Desktop/Gem Price/app.py', reloading

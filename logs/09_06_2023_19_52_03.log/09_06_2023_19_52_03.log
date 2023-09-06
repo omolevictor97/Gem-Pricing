@@ -1,0 +1,28 @@
+[ 2023-09-06 19:52:05,409 ] 26 root - INFO - Data Ingestion Starts
+[ 2023-09-06 19:52:05,449 ] 29 root - INFO - Pandas DataFrame is read
+[ 2023-09-06 19:52:05,645 ] 32 root - INFO - Train Test Split
+[ 2023-09-06 19:52:05,831 ] 41 root - INFO - Data Ingestion Is Completed
+[ 2023-09-06 19:52:05,833 ] 72 root - INFO - Reading the csv files
+[ 2023-09-06 19:52:05,874 ] 76 root - INFO - Read train and test data completed
+[ 2023-09-06 19:52:05,881 ] 77 root - INFO - Train DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       22045   0.86      Ideal     I     VS2   63.0   53.0  6.10  6.06  3.83   2706
+1        6723   1.01  Very Good     G     SI2   60.8   63.0  6.40  6.36  3.88   3577
+2       26613   0.44    Premium     D     VS1   60.2   59.0  4.93  4.91  2.96   1232
+3         678   0.31      Ideal     G     VS2   62.7   57.0  4.31  4.34  2.71    544
+4       12481   0.40      Ideal     G     VS1   62.2   56.0  4.72  4.74  2.94    877
+[ 2023-09-06 19:52:05,887 ] 78 root - INFO - Test DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0         204   0.70  Very Good     G     VS2   63.1   55.0  5.64  5.61  3.55   2657
+1       21667   0.57  Very Good     G     SI1   60.4   58.0  5.37  5.42  3.26   1273
+2       17467   0.42      Ideal     D    VVS2   62.6   56.0  4.79  4.77  2.99   1389
+3       23381   1.51       Good     D     VS2   59.8   65.0  7.36  7.43  4.42  12709
+4        9482   0.40    Premium     F     VS1   61.4   58.0  4.73  4.75  2.91    982
+[ 2023-09-06 19:52:05,887 ] 80 root - INFO - Obtaining preprocessor info
+[ 2023-09-06 19:52:05,887 ] 37 root - INFO - Pipeline Initiated
+[ 2023-09-06 19:52:05,887 ] 64 root - INFO - Pipeline Completed
+[ 2023-09-06 19:52:05,969 ] 19 root - INFO - A pickled file has been created
+[ 2023-09-06 19:52:05,969 ] 108 root - INFO - Pickle file saved
+[ 2023-09-06 19:52:05,980 ] 42 root - INFO - Model Report: {'Linear_Regression': 0.9085187548689895} 
+[ 2023-09-06 19:52:05,980 ] 49 root - INFO - The best model score is 0.9085187548689895 and the best model name is Linear_Regression
+[ 2023-09-06 19:52:05,981 ] 19 root - INFO - A pickled file has been created

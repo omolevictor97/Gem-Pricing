@@ -1,0 +1,20 @@
+[ 2023-09-07 00:05:46,575 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-07 00:05:46,583 ] 186 werkzeug - INFO -  * Debugger PIN: 976-796-985
+[ 2023-09-07 00:05:53,712 ] 67 root - INFO - DataFrame Gathered    Carat  Depth  Table    x    y    z   Cut Color Clarity
+0   18.0    2.0    4.0  9.0  8.0  9.0  Fair     D      I1
+[ 2023-09-07 00:05:53,831 ] 26 root - INFO - Exception Occured In Prediction
+[ 2023-09-07 00:05:53,859 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:53] "[35m[1mPOST /predict/ HTTP/1.1[0m" 500 -
+[ 2023-09-07 00:05:53,927 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:53] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:05:53,938 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:53] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:05:53,952 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:53] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:05:53,996 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:53] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:05:59,654 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:05:59] "GET /predict/ HTTP/1.1" 200 -
+[ 2023-09-07 00:06:11,733 ] 67 root - INFO - DataFrame Gathered    Carat  Depth  Table    x    y    z   Cut Color Clarity
+0   18.0    2.0    4.0  9.0  8.0  9.0  Fair     D      I1
+[ 2023-09-07 00:06:11,735 ] 26 root - INFO - Exception Occured In Prediction
+[ 2023-09-07 00:06:11,756 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:06:11] "[35m[1mPOST /predict/ HTTP/1.1[0m" 500 -
+[ 2023-09-07 00:06:11,789 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:06:11] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:06:11,794 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:06:11] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:06:11,833 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:06:11] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:06:11,870 ] 186 werkzeug - INFO - 127.0.0.1 - - [07/Sep/2023 00:06:11] "[36mGET /predict/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-07 00:16:52,291 ] 186 werkzeug - INFO -  * Detected change in '/Users/macbookpro/Desktop/Gem Price/src/pipeline/prediction_pipeline.py', reloading

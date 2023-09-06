@@ -1,0 +1,28 @@
+[ 2023-09-06 20:06:36,909 ] 26 root - INFO - Data Ingestion Starts
+[ 2023-09-06 20:06:36,967 ] 29 root - INFO - Pandas DataFrame is read
+[ 2023-09-06 20:06:37,174 ] 32 root - INFO - Train Test Split
+[ 2023-09-06 20:06:37,365 ] 41 root - INFO - Data Ingestion Is Completed
+[ 2023-09-06 20:06:37,366 ] 72 root - INFO - Reading the csv files
+[ 2023-09-06 20:06:37,407 ] 76 root - INFO - Read train and test data completed
+[ 2023-09-06 20:06:37,415 ] 77 root - INFO - Train DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       26634   0.41      Ideal     J     VS2   62.3   54.0  4.77  4.80  2.98    613
+1       10907   2.36      Ideal     J     VS2    NaN   59.0  8.64  8.69  5.21  17534
+2       18251   0.38    Premium     J     VS1   62.1   60.0  4.60  4.64  2.87    600
+3        9020   0.33  Very Good     G    VVS1   61.8   55.0  4.44  4.48  2.76    795
+4       21215   0.59    Premium     F     SI1   61.7   60.0  5.37  5.39  3.32   1412
+[ 2023-09-06 20:06:37,420 ] 78 root - INFO - Test DataFrame Head : 
+    Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       20303   0.56  Very Good     D     SI1    NaN   57.0  5.22  5.19  3.29   1777
+1       23068   0.32      Ideal     E     VS2   62.6   53.0  4.37  4.38  2.74    702
+2       19690   0.56  Very Good     E     VS2   61.8   56.0  5.28  5.31  3.27   1819
+3       21628   1.24  Very Good     H     SI2   63.2   55.0  6.88  6.83  4.33   5486
+4       16201   0.39      Ideal     G      IF   60.6   56.0  4.73  4.76  2.87   1209
+[ 2023-09-06 20:06:37,420 ] 80 root - INFO - Obtaining preprocessor info
+[ 2023-09-06 20:06:37,420 ] 37 root - INFO - Pipeline Initiated
+[ 2023-09-06 20:06:37,421 ] 64 root - INFO - Pipeline Completed
+[ 2023-09-06 20:06:37,500 ] 19 root - INFO - A pickled file has been created
+[ 2023-09-06 20:06:37,500 ] 108 root - INFO - Pickle file saved
+[ 2023-09-06 20:06:37,972 ] 42 root - INFO - Model Report : {'Lasso_Regression': 0.8886223113525259, 'Linear_Regression': 0.8569643187975428, 'Ridge_Regression': 0.8611021491780486, 'Elastic_Net': 0.8275792373112405}
+[ 2023-09-06 20:06:37,973 ] 55 root - INFO - Best Model Found , Model Name : Lasso_Regression , R2 Score : 0.8886223113525259
+[ 2023-09-06 20:06:37,973 ] 19 root - INFO - A pickled file has been created
