@@ -36,7 +36,7 @@ def evaluate_model(X_train, y_train, X_test, y_test, models:dict):
             test_score = r2_score(y_test, y_test_pred)
             report[i] = test_score
             
-            return report
+        return report
     except Exception as e:
         logging.info("Error happened at the evaluate_model function")
         raise CustomException(e, sys)
